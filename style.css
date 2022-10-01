@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+}
+#padre{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100% ;
+    height: 100%;
+    column-gap: 8px;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+h2{
+    color:#149bf5 ;
+}
+p{
+    text-align: justify;
+    margin-right: 20px;
+}
+.colmn1{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1CB5E0, #5757b3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1CB5E0, #5757b3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex-direction: column;
+    color: white;
+    
+}
+.table{
+    margin: 40px;
+    
+}
+#bloque2{
+    display: grid;
+    align-items: center;
+}
+.datos{
+    border-top-width: 5px;
+    border-top-color: #CC0000;
+
+    
+}
+#dato2{
+    align-items: center;
+    border-top-width: 5px;
+    border-top-color: #CC0000;
+}
+#formacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+#formac1{
+    margin-top: 46px;
+}
+
+.linea{
+    color: #149bf5;
+}
+
+
+@media (max-width: 927px) { 
+    img{
+        width: 100%;
+        height: 100%;  
+    }
+    
+}
+@media ( min-width: 1672px) { 
+    #padre{
+        grid-template-columns: 14% 80%;
+     
+    }
+}
