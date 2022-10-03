@@ -4,13 +4,17 @@ body, html{
 #padre{
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 100% ;
     height: 100%;
     column-gap: 8px;
     flex-wrap: wrap;
     font-style: italic;
+    height: 100%;
+
 }
 h2{
+    color:#149bf5 ;
+}
+h1{
     color:#149bf5 ;
 }
 p{
@@ -70,4 +74,15 @@ p{
         grid-template-columns: 14% 80%;
      
     }
+}
+
+@media ( max-width: 930px) { 
+    #hobb{
+        margin-top: 140px;
+     
+    }
+}
+#hobbies{
+  display: flex;
+  justify-content: space-around;
 }
